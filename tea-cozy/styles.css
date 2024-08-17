@@ -1,8 +1,39 @@
 html {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica;
     font-size: 22;
     color: seashell;
     background-color: black;
     opacity: 0.9;
     text-align: center;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 69px;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom: 1px solid seashell;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img.logo {
+    height: 50px;
+}
+
+nav ul li {
+    display: inline-block;
+    text-decoration: underline;
+}
+
+section {
+    position: relative;
+    top: 69px;
 }
