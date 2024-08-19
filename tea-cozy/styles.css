@@ -80,6 +80,9 @@ section.feat-teas {
     justify-items: center;
 }
 
+.tea {
+    margin: 10px;
+}
 
 .feat-teas .teas figure img {
     width: 300px;
@@ -90,8 +93,37 @@ figcaption h4 {
     margin-top: 10px;
 }
 
-footer {
-    position: fixed;
-    bottom: 0;
-    right: 0;
+section.locations {
+    background-image: url(./img/img-locations-background.jpg);
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+}
+
+
+div.block {
+    display: flex;
+    flex-direction: row;
+}
+
+div.location {
+    width: 300px;
+    margin: 15px 20px;
+    background-color: black;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+div.location h3, div.location h4{
+    align-content: space-around;
+}
+
+.contact {
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-content: center;
 }
