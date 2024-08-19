@@ -62,24 +62,32 @@ section.mission {
 }
 
 section.feat-teas {
+    display: flex;
     width: 1000px;
     flex-direction: column;
     justify-content: center;
-    flex-wrap: wrap;
+    justify-items: center;
 }
 
 .feat-teas .feat-teas-title {
     align-items: center;
 }
 
-.teas figure {
-    flex-direction: row;
-    justify-content: space-between;
+.feat-teas .teas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
 }
+
 
 .feat-teas .teas figure img {
     width: 300px;
     height: 200px;
+}
+
+figcaption h4 {
+    margin-top: 10px;
 }
 
 footer {
